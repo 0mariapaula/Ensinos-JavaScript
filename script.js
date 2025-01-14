@@ -1,2 +1,4 @@
-alert("ola mundo")
- console.log ("ola mundo 2.0")
+let idade  = 90
+let nome = "Lulu"
+
+console.log ("Oi eu sou a/o" , nome , " e tenho " , idade , " anos")
