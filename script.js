@@ -1,8 +1,7 @@
-let nome = "Maria Paula"
-let sobrenome = "Ferreira"
+let idade = 2
 
-let nomeCompleto = `${nome} ${sobrenome} Lins`
-
-console.log("Nome é: " , nomeCompleto)
-
-//uma templete string  =  string plus a onde consigo fazer operacoes dentro dela  
+if (idade > 17) {
+    console.log("voce é um velho")
+} else {
+    console.log("voce é muito novo")
+}
