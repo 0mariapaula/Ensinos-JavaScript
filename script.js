@@ -1,5 +1,8 @@
-let nome = "MARIA"
-nome = "PAULA"
-console.log(nome) //posso alterar o valor dela ao decorrer do desenvolvimento o VAR tambem faz igual 
+let nome = "Maria Paula"
+let sobrenome = "Ferreira"
 
-// const = nao pode ser mudado ficaa com o valor ate o fim do codigo
+let nomeCompleto = `${nome} ${sobrenome} Lins`
+
+console.log("Nome é: " , nomeCompleto)
+
+//uma templete string  =  string plus a onde consigo fazer operacoes dentro dela  
